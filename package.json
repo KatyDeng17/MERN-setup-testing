@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "MERN setup ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatyDeng17/MERN-setup-testing.git"
+  },
+  "keywords": [],
+  "author": "Katy Deng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatyDeng17/MERN-setup-testing/issues"
+  },
+  "homepage": "https://github.com/KatyDeng17/MERN-setup-testing#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
