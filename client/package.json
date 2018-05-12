@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Client side setup",
   "main": "index.js",
+  "proxy":{
+    "/api/*":{
+      "target": "http://localhost:8000"
+    }
+    
+  },
   "scripts": {
     "start": "node dev_server.js",
     "dev": "npm run dev --prefix ..",
